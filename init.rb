@@ -11,7 +11,7 @@ Redmine::Plugin.register :redmine_wiki_approval_api do
   author 'BK'
   description 'REST API endpoints for Wiki Approval Workflow plugin'
   version '0.3.0'
-  url 'https://github.com/bkkim90/a003-wiki-approval-companion'
+  url 'https://github.com/bkkim90/redmine-wiki-approval-api'
   requires_redmine version_or_higher: '5.0.0'
   requires_redmine_plugin :redmine_wiki_approval, version_or_higher: '0.9.0'
 end
